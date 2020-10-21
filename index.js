@@ -7,6 +7,7 @@ import EmojiPack from './constants/EmojiPack';
 import isoCountries from './constants/isoCountries';
 import MapViewStyles from './constants/MapViewStyles';
 
+import Icon from './components/Icon';
 import CameraRollPicker from './components/CameraRollPicker';
 import Text from './components/Text';
 import TextInput from './components/TextInput';
@@ -38,5 +39,6 @@ export {
     CountryPicker,
     EmojiBackground,
     MapView,
-    SearchBar
+    SearchBar,
+    Icon
 }
