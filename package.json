@@ -1,0 +1,19 @@
+{
+  "name": "my-link-components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "My-Link Corporation",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/my-link-corporation/my-link-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/my-link-corporation/my-link-components/issues"
+  },
+  "homepage": "https://github.com/my-link-corporation/my-link-components#readme",
+  "description": ""
+}
