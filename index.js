@@ -18,6 +18,8 @@ import EmojiBackground from './components/EmojiBackground';
 import MapView from './components/Maps/Map';
 import SearchBar from './components/SearchBar';
 
+import { Button, Switch, HourSelector, TimerSelector } from './components/Components';
+
 const Constants = {
     AccountTypes,
     Colors,
@@ -29,6 +31,10 @@ const Constants = {
     MapViewStyles
 }
 
+const Maps = {
+    MapView
+}
+
 export {
     Constants,
     CameraRollPicker,
@@ -38,7 +44,11 @@ export {
     CityFinder,
     CountryPicker,
     EmojiBackground,
-    MapView,
+    Maps,
     SearchBar,
-    Icon
+    Icon,
+	Button,
+	Switch,
+	HourSelector,
+	TimerSelector
 }
