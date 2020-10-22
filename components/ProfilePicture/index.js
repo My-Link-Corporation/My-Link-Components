@@ -13,7 +13,6 @@ import React from 'react';
 import { View, Image, Linking, TouchableOpacity } from 'react-native';
 import Colors from '../../constants/Colors';
 import Values from '../../constants/Values';
-import firebase from '@react-native-firebase/app';
 import FastImage from 'react-native-fast-image';
 import storage, { firebase } from '@react-native-firebase/storage';
 const defaultPhoto = require('../../assets/images/default_profile_picture.png');
