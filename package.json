@@ -1,5 +1,5 @@
 {
-  "name": "my-link-components",
+  "name": "@my-link-corporation/components",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,6 +7,7 @@
   },
   "author": "My-Link Corporation",
   "license": "ISC",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/my-link-corporation/my-link-components.git"
