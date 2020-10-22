@@ -13,8 +13,9 @@ import React from 'react';
 import { View, Image, Linking, TouchableOpacity } from 'react-native';
 import Colors from '../../constants/Colors';
 import Values from '../../constants/Values';
-import firebase from '../firebase';
+import firebase from '@react-native-firebase/app';
 import FastImage from 'react-native-fast-image';
+import storage, { firebase } from '@react-native-firebase/storage';
 const defaultPhoto = require('../../assets/images/default_profile_picture.png');
 
 /**
@@ -61,7 +62,7 @@ export default class ProfilePicture extends React.Component{
 		this._onrequest = true;
 		if(linkname){
 			this.setState({linkname: linkname});
-			firebase.firestore().collection("usuarios").where('linkname', '==', linkname)
+			firestore().collection("usuarios").where('linkname', '==', linkname)
 			.get()
 			.then(async function (response){
 				if(response.docs.length > 0){
@@ -81,7 +82,7 @@ export default class ProfilePicture extends React.Component{
 					
 					if(data.foto || data.logo){
 						var remoteReference = data.foto;
-						firebase.storage().ref(remoteReference).getDownloadURL()
+						storage().ref(remoteReference).getDownloadURL()
 						.then((url) => {
 							if(!self._ismounted){
 								return;
