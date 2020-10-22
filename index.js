@@ -15,7 +15,7 @@ import ProfilePicture from './components/ProfilePicture';
 import CityFinder from './components/CityFinder';
 import CountryPicker from './components/CountryPicker';
 import EmojiBackground from './components/EmojiBackground';
-import MapView from './components/Maps';
+import MapView from './components/Maps/Map';
 import SearchBar from './components/SearchBar';
 
 const Constants = {
