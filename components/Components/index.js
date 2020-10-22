@@ -12,7 +12,7 @@
 import React from 'react';
 import { TouchableOpacity, View, PixelRatio } from 'react-native';
 import Text from '../Text';
-import Colors from '../Colors';
+import Colors from '../../constants/Colors';
 import Icon from '../Icon';
 
 class Button extends React.Component{

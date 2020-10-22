@@ -11,15 +11,15 @@
 
 import React from 'react';
 import { View, SafeAreaView, FlatList, TouchableOpacity, Image } from 'react-native';
-import Text from './Text';
-import isoCountries from '../constants/isoCountries';
-import Layout from '../constants/Layout';
-import SearchBar from './SearchBar';
-import FlagPack from '../constants/FlagPack';
-import Icon from './Icon';
+import Text from '../Text';
+import isoCountries from '../../constants/isoCountries';
+import Layout from '../../constants/Layout';
+import SearchBar from '../SearchBar';
+import FlagPack from '../../constants/FlagPack';
+import Icon from '../Icon';
 import { Navigation } from 'react-native-navigation';
 
-const MyLinkLogo = require('../assets/images/logo.png');
+const MyLinkLogo = require('../../assets/images/logo.png');
 
 export default class CountryPicker extends React.Component{
 	constructor(props){
