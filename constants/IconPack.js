@@ -1,3 +1,14 @@
+/**
+ * Copyright (c) 2019-present, My-Link Corporation S.A de C.V.
+ * All rights reserved.
+ * 
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Eduardo Dorantes <eduardo-dorantes@my-link.com>
+ */
+
+'use strict';
+
 export default {
 	abc: require('../assets/icons/abc.png'),
 	action: require('../assets/icons/action.png'),
@@ -6,6 +17,7 @@ export default {
 	american_express: require('../assets/icons/american_express.png'),
 	android_social: require('../assets/icons/android_social.png'),
 	anyone_knows: require('../assets/icons/anyone_knows.png'),
+	apple: require('../assets/icons/apple.png'),
 	appstore_social: require('../assets/icons/appstore_social.png'),
 	ar: require('../assets/icons/ar.png'),
 	arrow_down: require('../assets/icons/arrow_down.png'),
@@ -363,6 +375,7 @@ export default {
 	vip_1: require('../assets/icons/vip_1.png'),
 	vip_2: require('../assets/icons/vip_2.png'),
 	vip_business: require('../assets/icons/vip_business.png'),
+	vip_general: require('../assets/icons/vip_general.png'),
 	vip_gray: require('../assets/icons/vip_gray.png'),
 	vip_line: require('../assets/icons/vip_line.png'),
 	vip_personal: require('../assets/icons/vip_personal.png'),
