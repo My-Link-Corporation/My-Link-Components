@@ -6,6 +6,8 @@ import FlagPack from './constants/FlagPack';
 import EmojiPack from './constants/EmojiPack';
 import isoCountries from './constants/isoCountries';
 import MapViewStyles from './constants/MapViewStyles';
+import IconPack from './constants/IconPack';
+import Values from './constants/Values';
 
 import Icon from './components/Icon';
 import CameraRollPicker from './components/CameraRollPicker';
@@ -28,7 +30,9 @@ const Constants = {
     FlagPack,
     EmojiPack,
     isoCountries,
-    MapViewStyles
+    MapViewStyles,
+    IconPack,
+    Values
 }
 
 const Maps = {
