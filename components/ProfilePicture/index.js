@@ -15,6 +15,7 @@ import Colors from '../../constants/Colors';
 import Values from '../../constants/Values';
 import FastImage from 'react-native-fast-image';
 import storage, { firebase } from '@react-native-firebase/storage';
+import firestore from '@react-native-firebase/firestore';
 const defaultPhoto = require('../../assets/images/default_profile_picture.png');
 
 /**

@@ -231,6 +231,7 @@ export default {
 	my_link: require('../assets/icons/my_link.png'),
 	my_links: require('../assets/icons/my_links.png'),
 	my_link_logo: require('../assets/icons/my_link_logo.png'),
+	my_link_logo_completo: require('../assets/icons/my_link_logo_completo.png'),
 	my_link_menu: require('../assets/icons/my_link_menu.png'),
 	my_link_social: require('../assets/icons/my_link_social.png'),
 	my_link_social_color: require('../assets/icons/my_link_social_color.png'),
