@@ -23,7 +23,7 @@ export default {
 	atencion_personal: require('../assets/icons/atencion_personal.png'),
 	attach: require('../assets/icons/attach.png'),
 	atuendo_casual: require('../assets/icons/atuendo_casual.png'),
-	atuendo_formal: require('../assets/icons/atuendo_formail.png'),
+	atuendo_formal: require('../assets/icons/atuendo_formal.png'),
 	audio: require('../assets/icons/audio.png'),
 	audio_muted: require('../assets/icons/audio_muted.png'),
 	audio_off: require('../assets/icons/audio_off.png'),
