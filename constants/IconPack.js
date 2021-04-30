@@ -86,6 +86,7 @@ export default {
 	card_wallet: require('../assets/icons/card_wallet.png'),
 	card_wide: require('../assets/icons/card_wide.png'),
 	cash_card: require('../assets/icons/cash_card.png'),
+	categorias: require('../assets/icons/categorias.png'),
 	celebration_day: require('../assets/icons/celebration_day.png'),
 	certificate: require('../assets/icons/certificate.png'),
 	chain: require('../assets/icons/chain.png'),
