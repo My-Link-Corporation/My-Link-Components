@@ -16,6 +16,7 @@ import isoCountries from '../../constants/isoCountries';
 import Layout from '../../constants/Layout';
 import SearchBar from '../SearchBar';
 import FlagPack from '../../constants/FlagPack';
+import isoRegions from '../../constants/isoRegions';
 import Icon from '../Icon';
 import { Navigation } from 'react-native-navigation';
 
