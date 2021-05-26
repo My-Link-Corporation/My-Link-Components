@@ -17,9 +17,9 @@ import Layout from '../../constants/Layout';
 import SearchBar from '../SearchBar';
 import FlagPack from '../../constants/FlagPack';
 import isoRegions from '../../constants/isoRegions';
+import isoCallingCodes from '../../constants/isoCallingCodes.json';
 import Icon from '../Icon';
 import { Navigation } from 'react-native-navigation';
-
 const MyLinkLogo = require('../../assets/images/logo.png');
 
 export default class CountryPicker extends React.Component{
