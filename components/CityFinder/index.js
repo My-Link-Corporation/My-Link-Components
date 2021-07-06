@@ -85,7 +85,7 @@ export default class CityFinder extends React.Component{
         var PermissionsSet = [];
         if(Platform.OS === 'android'){
             PermissionsSet = [
-				PERMISSIONS.ANDROID.ACCESS_BACKGROUND_LOCATION,
+				//PERMISSIONS.ANDROID.ACCESS_BACKGROUND_LOCATION,
 				PERMISSIONS.ANDROID.ACCESS_COARSE_LOCATION,
 				PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION
 			];
