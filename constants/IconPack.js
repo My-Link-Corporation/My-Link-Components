@@ -1,4 +1,5 @@
 export default {
+	social_share: require('../assets/icons/social_share.png'),
 	abc: require('../assets/icons/abc.png'),
 	abierto_24_horas: require('../assets/icons/abierto_24_horas.png'),
 	acceso_a_discapacitados: require('../assets/icons/acceso_a_discapacitados.png'),
