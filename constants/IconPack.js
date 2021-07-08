@@ -355,6 +355,8 @@ export default {
 	shopping_cart: require('../assets/icons/shopping_cart.png'),
 	sistema_apartado: require('../assets/icons/sistema_apartado.png'),
 	sms: require('../assets/icons/sms.png'),
+	snapchat_social: require('../assets/icons/snapchat_social.png'),
+	snapchat_social_color: require('../assets/icons/snapchat_social_color.png'),
 	solo_reservacion: require('../assets/icons/solo_reservacion.png'),
 	sort_az: require('../assets/icons/sort_az.png'),
 	space: require('../assets/icons/space.png'),
