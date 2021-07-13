@@ -1,4 +1,5 @@
 export default {
+	social_share: require('../assets/icons/social_share.png'),
 	abc: require('../assets/icons/abc.png'),
 	abierto_24_horas: require('../assets/icons/abierto_24_horas.png'),
 	acceso_a_discapacitados: require('../assets/icons/acceso_a_discapacitados.png'),
@@ -354,6 +355,8 @@ export default {
 	shopping_cart: require('../assets/icons/shopping_cart.png'),
 	sistema_apartado: require('../assets/icons/sistema_apartado.png'),
 	sms: require('../assets/icons/sms.png'),
+	snapchat_social: require('../assets/icons/snapchat_social.png'),
+	snapchat_social_color: require('../assets/icons/snapchat_social_color.png'),
 	solo_reservacion: require('../assets/icons/solo_reservacion.png'),
 	sort_az: require('../assets/icons/sort_az.png'),
 	space: require('../assets/icons/space.png'),
