@@ -93,8 +93,8 @@ class Switch extends React.Component{
 		const Component = this.props.disabled ? View : TouchableOpacity;
 		return(
 			<Component activeOpacity={0.75} onPress={this.onPress} style={{
-				width: 30,
-				height: 22,
+				width: 60,
+				height: 42,
 				borderWidth: 1,
 				borderColor: Colors.defaultGray,
 				borderRadius: 7.5,
@@ -104,8 +104,8 @@ class Switch extends React.Component{
 				justifyContent: value ? 'flex-end' : 'flex-start'
 			}}>
 				<View style={{
-					width: 10,
-					height: 10,
+					width: 20,
+					height: 20,
 					borderRadius: 360,
 					borderWidth: 1,
 					borderColor: borderColor,
